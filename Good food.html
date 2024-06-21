@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mexican Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="La Cocina Mexicana Logo" class="logo">
+        <h1>Bienvenido a La Cocina Mexicana</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#appetizers">Appetizers</a></li>
+            <li><a href="#main-courses">Main Courses</a></li>
+            <li><a href="#desserts">Desserts</a></li>
+            <li><a href="#drinks">Drinks</a></li>
+            <li><a href="#visit-us">Visit Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="appetizers" class="menu-section">
+            <h2>Appetizers</h2>
+            <div class="menu-item">
+                <img src="guacamole.jpg" alt="Guacamole" class="menu-image">
+                <div class="menu-text">
+                    <h3>Guacamole</h3>
+                    <p>Fresh avocados, tomatoes, onions, cilantro, and lime juice.</p>
+                </div>
+                <span>$6.99</span>
+            </div>
+            <div class="menu-item">
+                <img src="queso_fundido.jpg" alt="Queso Fundido" class="menu-image">
+                <div class="menu-text">
+                    <h3>Queso Fundido</h3>
+                    <p>Melted cheese with chorizo and poblano peppers.</p>
+                </div>
+                <span>$8.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Nachos</h3>
+                <p>Crispy tortilla chips topped with melted cheese, jalapeños, sour cream, and guacamole.</p>
+                <span>$7.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Elote</h3>
+                <p>Grilled corn on the cob with chili powder, cheese, and lime.</p>
+                <span>$4.99</span>
+            </div>
+        </section>
+
+        <section id="main-courses" class="menu-section">
+            <h2>Main Courses</h2>
+            <div class="menu-item">
+                <img src="tacos_al_pastor.jpg" alt="Tacos al Pastor" class="menu-image">
+                <div class="menu-text">
+                    <h3>Tacos al Pastor</h3>
+                    <p>Marinated pork with pineapple, onions, and cilantro.</p>
+                </div>
+                <span>$12.99</span>
+            </div>
+            <div class="menu-item">
+                <img src="enchiladas_verdes.jpg" alt="Enchiladas Verdes" class="menu-image">
+                <div class="menu-text">
+                    <h3>Enchiladas Verdes</h3>
+                    <p>Chicken enchiladas with green tomatillo sauce and cheese.</p>
+                </div>
+                <span>$11.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Burrito</h3>
+                <p>Flour tortilla stuffed with rice, beans, cheese, and your choice of meat.</p>
+                <span>$10.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Carne Asada</h3>
+                <p>Grilled steak served with rice, beans, and tortillas.</p>
+                <span>$14.99</span>
+            </div>
+        </section>
+
+        <section id="desserts" class="menu-section">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <h3>Churros</h3>
+                <p>Fried dough pastry sprinkled with sugar and cinnamon.</p>
+                <span>$4.99</span>
+            </div>
+            <div class="menu-item">
+                <img src="flan.jpg" alt="Flan" class="menu-image">
+                <div class="menu-text">
+                    <h3>Flan</h3>
+                    <p>Creamy caramel custard dessert.</p>
+                </div>
+                <span>$5.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Tres Leches Cake</h3>
+                <p>Moist cake soaked in three types of milk.</p>
+                <span>$6.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Sopapillas</h3>
+                <p>Fried pastry topped with honey and powdered sugar.</p>
+                <span>$5.49</span>
+            </div>
+        </section>
+
+        <section id="drinks" class="menu-section">
+            <h2>Drinks</h2>
+            <div class="menu-item">
+                <h3>Margarita</h3>
+                <p>Classic lime margarita with a salted rim.</p>
+                <span>$7.99</h3>
+            </div>
+            <div class="menu-item">
+                <img src="horchata.jpg" alt="Horchata" class="menu-image">
+                <div class="menu-text">
+                    <h3>Horchata</h3>
+                    <p>Sweet rice milk drink with cinnamon.</p>
+                </div>
+                <span>$3.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Agua de Jamaica</h3>
+                <p>Hibiscus iced tea.</p>
+                <span>$3.99</span>
+            </div>
+            <div class="menu-item">
+                <h3>Michelada</h3>
+                <p>Beer with lime juice, assorted sauces, spices, and peppers.</p>
+                <span>$6.99</span>
+            </div>
+        </section>
+
+        <section id="visit-us" class="visit-us-section">
+            <h2>Visit Us</h2>
+            <div class="visit-us-info">
+                <h3>Address</h3>
+                <p>1234 Taco Lane, Food City, FL 56789</p>
+                <h3>Hours of Operation</h3>
+                <p>Monday - Friday: 11:00 AM - 10:00 PM</p>
+                <p>Saturday - Sunday: 12:00 PM - 11:00 PM</p>
+                <h3>Contact Us</h3>
+                <form action="contact_form.php" method="post" class="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <h3>Find Us on the Map</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60210.83019499614!2d-99.24507992279868!3d19.387198452666654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff0e1ad70313%3A0x4ed4de4aef94a18e!2sMexico%20City%2C%20CDMX%2C%20Mexico!5e0!3m2!1sen!2sus!4v1622480651932!5m2!1sen!2sus" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 La Cocina Mexicana. All rights reserved.</p>
+    </footer>
+
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
